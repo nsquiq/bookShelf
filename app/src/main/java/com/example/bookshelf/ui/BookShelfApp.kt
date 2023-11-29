@@ -16,7 +16,8 @@ import androidx.compose.ui.input.nestedscroll.nestedScroll
 import com.example.bookshelf.R
 import androidx.compose.ui.res.stringResource
 import com.example.bookshelf.ui.screens.HomeScreen
-
+import com.example.bookshelf.ui.screens.BookViewModel
+import androidx.lifecycle.viewmodel.compose.viewModel
 
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
