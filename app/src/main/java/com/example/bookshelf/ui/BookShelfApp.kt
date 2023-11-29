@@ -31,8 +31,10 @@ fun BookShelfApp(){
                 .fillMaxSize()
                 .padding(it)
         ) {
-
-            HomeScreen()
+           val bookViewModel: BookViewModel = viewModel()
+            HomeScreen(
+                bookUiState = bookViewModel.bookUiState
+            )
         }
     }
 }
